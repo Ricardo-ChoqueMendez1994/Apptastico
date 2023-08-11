@@ -1,0 +1,630 @@
+@media screen and (max-width: 992px){
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #4B5964; 
+        height: 110px;
+        align-items: center;
+    }
+
+    .leftHeader {
+        padding-left: 5%;
+    }
+
+    .leftHeader img {
+        width: 132%;
+    }
+
+    .rightHeader {
+        padding-top: 2%;
+        padding-right: 1%;
+        width: 45%;
+    }
+
+    .botonHead {
+        width: 17%;
+        height: 30px;
+        margin-right: 1%;
+        font-size: 80%;
+        border-radius: 12px;
+        background-color: #414C54;
+        color: rgb(233, 236, 238);
+    }
+
+    /* -------------------- superior --------------------  */
+
+    .superior {
+        height: 460px;
+        line-height: 170%;
+    }
+
+    .leftSuperior {
+        padding-top: 2%;
+        padding-left: 8%;
+    }
+
+    .leftSuperior img {
+        height: 439px;
+        width: 85%;
+    }
+
+    .rightSuperior {
+        width: 45%;
+        padding-top: 7%;
+        margin-right: 5%;
+    }
+
+    .design {
+        font-size: 311%;    
+        padding-bottom: 3%;
+        color: rgb(233, 236, 238);
+        padding-bottom: 7%;
+    }
+
+    .clear {
+        font-size: 102%;
+        width: 99%;
+        color: rgb(222, 226, 228);
+        padding-bottom: 3%;
+    }
+
+    .dark {
+        font-size: 115%;
+        padding-top: 1%;
+        width: 99%;
+        text-transform: capitalize;
+        color: rgb(137, 139, 139);
+        padding-bottom: 5%;
+    }
+
+    .lowerRight {
+        padding-top: 3%;
+        display: flex;
+        width: 85%;
+    }
+
+    .lowerRight a {
+        font-size: 105%;
+        width: 50%;
+    }
+
+    .botonBlue {
+        width: 45%;
+        height: 35px;
+        font-size: 87%;
+        color: white;
+        background-color: var(--primaryBoton);
+        border-radius: 25px;
+    }
+
+    /* -------------------- Logos --------------------  */
+
+    .logos {
+        height: 80px;
+    }
+
+    /* -------------------- threeBoxes --------------------  */
+
+    .threeBoxes {
+        justify-content: space-evenly;
+        height: 480px;
+    }
+
+    .threeBoxes img {
+        width: 40%;
+
+    }
+
+    .titleBox {
+        font-size: 155%;
+        padding-top: 5%;
+    }
+
+    .textBox {
+        line-height: 135%;
+        font-size: 105%;
+    }
+
+    .box {
+        width: 47%;
+        height: 45px;
+        border-radius: 10px;
+        border-color: white;
+        font-size: 95%;
+    }
+
+    /* -------------------- selectProjects --------------------  */
+
+    .selectProjects {
+        height: 355px;
+    }
+
+    .icono {
+        font-size: 185%;
+    }
+    
+    .icono img {
+        width: 3%;
+        height: 33px;
+        padding-left: 7%;
+    }
+    
+    .icono p {
+        padding-left: 3%;
+        font-size: 123%;
+        color: #010502;
+    }
+
+    .images img {
+        width: 17%;
+        height: 195px;
+    }
+
+    .images img:hover{
+        border-radius: 60%;
+    }
+
+    /* -------------------- last --------------------  */
+
+    .last {
+        height: 520px;
+        justify-content: space-around;
+        padding-top: 7%;
+    }
+
+    .titleLast p {
+        font-size: 155%;
+    }
+
+    .imgTxtLast img {
+        width: 35%;
+        height: 130px;
+    }
+
+    .paragraphFrom {
+        font-size: 95%;
+        color: #8d9397;
+        line-height: 120%;
+        padding-top: 1%;
+    }
+
+    .older {
+        font-size: 115%;
+        padding-left: 3%;
+    }
+
+    .apptasticoBox  {
+        font-size: 97%;
+        color: #8d9397;
+        line-height: 130%;
+    }
+
+    .fechaTwit {
+        font-size: 100%;
+    }
+
+
+    /* ----------- Footer ----------  */
+
+    footer {
+        display: flex;
+        background-color: #c0cbd3;
+        width: 100%;
+        height: 80px;
+        margin-top: 2%;
+    }
+
+    .footerLeft {
+        padding-top: 3%;
+        padding-left: 12%;
+        font-size: 125%;
+        width: 50%;
+    }
+
+    .footerRight {
+        padding-top: 3%;
+        padding-left: 10%;
+        display: flex;
+    }
+
+    .footerRight img{
+        width: 35%;
+        height: 50%;
+        padding-left: 9%;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    :root{
+        --backgroundPurple:  rgb(66, 63, 87);
+        --backgroundGray: #d7e0e6;
+    }
+
+    header {
+        background-color:var(--backgroundPurple);
+    }
+
+    .botonHead {
+        width: 21%;
+        height: 33px;
+    }
+
+    /* -------------------- superior --------------------  */
+
+    .superior {
+        height: 443px;
+        line-height: 135%;
+        background-color: var(--backgroundPurple);
+    }
+
+    .leftSuperior {
+        padding-top: 5%;
+        padding-left: 1%;
+    }
+
+    .leftSuperior img {
+        width: 95%;
+        height: 405px;
+    }
+
+    .rightSuperior {
+        width: 40%;
+    }
+
+    .design {
+        font-size: 300%;    
+        line-height: 75%;
+    }
+
+    .botonBlue {
+        font-size: 70%;
+    }
+
+    .or {
+        font-size: 110%;
+    }
+
+    .lowerRight img {
+        width: 10%;
+    }
+
+    .lowerRight a{
+        font-size: 75%;
+    }
+
+    /* -------------------- Logos --------------------  */
+
+    .logos {
+        height: 75px;
+        background-color: #bfc0c2;
+    }
+
+    /* -------------------- threeBoxes --------------------  */
+
+    .threeBoxes {
+        justify-content: space-evenly;
+        height: 430px;
+        background-color: var(--backgroundGray);
+    }
+
+    .threeBoxes img {
+        width: 63%;
+    }
+
+    .titleBox {
+        font-size: 135%;
+    }
+
+    .textBox {
+        line-height: 105%;
+        font-size: 95%;
+    }
+
+    .box {
+        width: 42%;
+        height: 37px;
+        font-size: 75%;
+    }
+
+    /* -------------------- selectProjects --------------------  */
+
+    .selectProjects {
+        height: 305px;
+        background-color: var(--backgroundGray);
+    }
+    
+    .icono img {
+        padding-left: 1%;
+    }
+    
+    .icono p {
+        font-size: 103%;
+        color: #010502;
+    }
+
+    .images img {
+        width: 15%;
+        height: 165px;
+        margin-bottom: 3%;
+    }
+
+    /* -------------------- last --------------------  */
+
+    .last {
+        height: 450px;
+        padding-top: 3%;
+        background-color: var(--backgroundGray);
+    }
+
+    .titleLast p {
+        font-size: 165%;
+    }
+
+    .imgTxtLast img {
+        width: 30%;
+        height: 115px;
+    }
+
+    .title {
+        font-size: 115%;
+    }
+
+    .paragraphFrom {
+        font-size: 80%;
+    }
+
+    .apptasticoBox  {
+        font-size: 97%;
+        color: #8d9397;
+        line-height: 130%;
+    }
+
+    .fecha {
+        font-size: 80%;
+    }
+
+    .rightLast {
+        font-size: 80%;
+    }
+
+    .fechaTwit {
+        font-size: 115%;
+    }
+
+
+    /* ----------- Footer ----------  */
+
+    footer {
+        display: flex;
+        background-color: var(--backgroundGray);
+        margin-top: 0%;
+        border-top: 1px solid rgb(145, 144, 144);
+    }
+
+}
+
+@media screen and (max-width: 480px){
+
+    :root{
+        --backgroundBlue:  rgb(14, 4, 70);
+        --backgroundGray: #bdc3c7;
+    }
+
+    header {
+        background-color:var(--backgroundBlue);
+        height: 70px;
+    }
+
+    .leftHeader img {
+        width: 120%;
+    }
+
+    .botonHead {
+        width: 20%;
+        height: 27px;
+        font-size: 50%;
+    }
+
+    /* -------------------- superior --------------------  */
+
+    .superior {
+        height: 780px;
+        line-height: 135%;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--backgroundBlue);
+    }
+
+    .leftSuperior {
+        padding-top: 5%;
+        padding-right: 35%;
+    }
+
+    .leftSuperior img {
+        height: 305px;
+    }
+
+    .rightSuperior {
+        width: 70%;
+    }
+
+    .design {
+        font-size: 300%;    
+        line-height: 75%;
+    }
+
+    .botonBlue {
+        font-size: 70%;
+    }
+
+    .botonBlue:hover {
+        width: 50%;
+        height: 35px;
+        color: black;
+        background-image: var(--hoverBoton);
+    }
+
+    .or {
+        font-size: 110%;
+    }
+
+    .lowerRight img {
+        width: 10%;
+    }
+
+    .lowerRight a{
+        font-size: 75%;
+    }
+
+    .lowerRight a:hover{
+        font-size: 86%;
+    }
+
+    /* -------------------- Logos --------------------  */
+
+    .logos {
+        height: 55px;
+        background-color: #bfc0c2;
+    }
+
+    .logos img {
+        height: 45px;
+    }
+
+    /* -------------------- threeBoxes --------------------  */
+
+    .threeBoxes {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 1400px;
+        background-color: var(--backgroundGray);
+    }
+
+    .threeBoxes img {
+        width: 70%;
+    }
+    
+    .boxFirst {
+        padding-top: 0%;
+        width: 50%;
+        text-align: center;
+    }
+    
+    .boxSecond {
+        padding-top: 5%;
+        width: 50%;
+        text-align: center;
+    }
+    
+    .boxThird {
+        padding-top: 5%;
+        width: 50%;
+        text-align: center;
+    }
+
+    /* -------------------- selectProjects --------------------  */
+
+    .selectProjects {
+        height: 305px;
+        background-color: var(--backgroundGray);
+    }
+    
+    .icono img {
+        padding-left: 0%;
+    }
+    
+    .icono p {
+        font-size: 103%;
+        color: #010502;
+    }
+
+    .images img {
+        width: 17%;
+        height: 140px;
+        margin-bottom: 13%;
+    }
+
+    /* -------------------- last --------------------  */
+
+    .last {
+        height: 750px;
+        padding-top: 3%;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--backgroundGray);
+    }
+
+    .titleLast p {
+        font-size: 195%;
+        margin-bottom: 7%;
+    }
+
+    .titleLast img {
+        height: 33px;
+        margin-right: 5%;
+    }
+
+    .leftLast {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 80%;
+    }
+
+    .imgTxtLast img {
+        width: 30%;
+        height: 115px;
+        margin-bottom: 5%;
+    }
+
+    .title {
+        font-size: 115%;
+    }
+
+    .paragraphFrom {
+        font-size: 80%;
+    }
+
+    .apptasticoBox  {
+        font-size: 97%;
+        color: #8d9397;
+        line-height: 130%;
+    }
+
+    .fecha {
+        font-size: 80%;
+    }
+
+    .rightLast {
+        font-size: 80%;
+        width: 80%;
+        margin-bottom: 7%;
+    }
+
+    .fechaTwit {
+        font-size: 115%;
+    }
+
+
+    /* ----------- Footer ----------  */
+
+    footer {
+        height: 60px;
+        display: flex;
+        background-color: var(--backgroundGray);
+        margin-top: 0%;
+        border-top: 1px solid rgb(145, 144, 144);
+    }
+
+    .footerLeft {
+        font-size: 95%;
+    }
+
+    .footerRight {
+        width: 17%;
+    }
+
+}

@@ -1,0 +1,426 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* --------------- variables ---------------  */
+
+:root{
+    --backgroundGray: #4E5C68;
+    --primaryBoton: #3F97D2;
+    --hoverBoton: linear-gradient(to top right, #0593f8, #0593f8, rgb(252, 250, 250));
+}
+
+ /* -------------------- Header --------------------  */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--backgroundGray); 
+    height: 140px;
+    align-items: center;
+}
+
+.leftHeader {
+    padding-top: 2%;
+    padding-left: 9%;
+}
+
+.leftHeader img {
+    width: 152%;
+}
+
+.rightHeader {
+    padding-top: 2%;
+    padding-right: 16%;
+    width: 27%;
+}
+
+.rightHeader a {
+    font-size: 143%;
+    padding-left: 12%;
+    text-decoration: none;
+    color: rgb(233, 236, 238);
+}
+
+.botonHead {
+    width: 21%;
+    height: 39px;
+    margin-right: 3%;
+    font-size: 125%;
+    border-radius: 17px;
+    background-color: #414C54;
+    color: rgb(233, 236, 238);
+}
+
+.botonHead:hover {
+    background-image: linear-gradient(to top right, rgb(9, 9, 12), rgb(147, 147, 151), rgb(245, 242, 242));
+}
+
+/* -------------------- superior --------------------  */
+
+.superior {
+    width: 100%;
+    height: 560px;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--backgroundGray);
+    justify-content: space-around;
+    line-height: 210%;
+}
+
+.leftSuperior {
+    width: 40%;
+    padding-left: 8%;
+}
+
+.leftSuperior img {
+    height: 559px;
+}
+
+.rightSuperior {
+    width: 45%;
+    padding-top: 6%;
+    margin-right: 10%;
+}
+
+.design {
+    font-size: 470%;    
+    padding-bottom: 3%;
+    color: rgb(233, 236, 238);
+}
+
+.clear {
+    font-size: 159%;
+    width: 85%;
+    text-transform: capitalize;
+    color: rgb(222, 226, 228);
+}
+
+.dark {
+    font-size: 155%;
+    padding-top: 1%;
+    width: 85%;
+    text-transform: capitalize;
+    color: rgb(137, 139, 139);
+}
+
+.lowerRight {
+    padding-top: 3%;
+    display: flex;
+    width: 75%;
+}
+
+.lowerRight a:hover {
+    font-size: 170%;
+}
+
+.botonBlue {
+    width: 45%;
+    height: 55px;
+    font-size: 110%;
+    color: white;
+    background-color: var(--primaryBoton);
+    border-radius: 25px;
+}
+
+.botonBlue:hover {
+    width: 50%;
+    height: 60px;
+    color: black;
+    background-image: var(--hoverBoton);
+}
+
+.or {
+    padding-top: 2%;
+    padding-left: 5%;
+    color: white;
+    font-size: 130%;
+}
+
+.lowerRight a {
+    padding-top: 2%;
+    padding-left: 5%;
+    color: white;
+    font-size: 150%;
+}
+
+/* -------------------- Logos --------------------  */
+
+.logos {
+    background-color: #EBEBEB;
+    height: 95px;
+    border-bottom: 2px solid #b0b1b3;
+}
+
+.logos img {
+    padding-top: 1%;
+    padding-left: 12%;
+    width: 5%;
+    height: 55px;
+}
+
+/* -------------------- threeBoxes --------------------  */
+
+.threeBoxes {
+    width: 100%;
+    height: 680px;
+    display: flex;
+    background-color: #fcfafa;
+    justify-content: space-evenly;
+}
+
+.threeBoxes img {
+    width: 47%;
+}
+
+.boxFirst {
+    padding-top: 10%;
+    width: 24%;
+    text-align: center;
+}
+
+.boxSecond {
+    padding-top: 10%;
+    width: 24%;
+    text-align: center;
+}
+
+.boxThird {
+    padding-top: 10%;
+    width: 24%;
+    text-align: center;
+}
+
+.titleBox {
+    font-size: 195%;
+    padding-top: 7%;
+    color: #676d72;
+}
+
+.textBox {
+    padding-top: 5%;
+    padding-bottom: 7%;
+    color: rgb(156, 155, 155);
+    line-height: 145%;
+    font-size: 135%;
+}
+
+.box {
+    background-color: var(--primaryBoton);
+    color: white;
+    width: 37%;
+    height: 55px;
+    border-radius: 10px;
+    border-color: white;
+    font-size: 105%;
+}
+
+.box:hover {
+    background-image:var(--hoverBoton);
+    width: 42%;
+    height: 60px;
+}
+
+/* -------------------- selectProjects --------------------  */
+
+.selectProjects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 390px;
+}
+
+.icono {
+    height: 120px;
+    font-size: 155%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 6%;
+    padding-top: 4%;
+}
+
+.icono img {
+    width: 1.5%;
+    height: 33px;
+    padding-left: 3%;
+}
+
+.icono p {
+    padding-left: 1%;
+    font-size: 123%;
+    color: #676d72;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 0.5%;
+}
+
+.images img {
+    width: 14.5%;
+    height: 235px;
+    border: 3px solid rgb(253, 252, 252);
+    box-shadow: 1px 1px 15px 1px rgb(206, 204, 204);
+    transition: border-radius 3s;
+}
+
+.images img:hover{
+    border-radius: 50%;
+}
+
+/* -------------------- last --------------------  */
+
+.last {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 9%;
+}
+
+.titleLast p {
+    font-size: 205%;
+    padding-left: 2%;
+    color: #5e6163;
+}
+
+.last a:hover {
+    font-size: 110%;
+}
+
+.leftLast {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 37%;
+}
+
+.leftLast a {
+    text-decoration: none;
+    color: #3E95D2;
+}
+
+.older {
+    font-size: 135%;
+}
+
+.rightLast {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 35%;
+}
+
+.rightLast a {
+    text-decoration: none;
+    color: #3E95D2;
+}
+
+.titleLast {
+    display: flex;
+    flex-direction: row;
+}
+
+/* -------------------  */
+
+.titleLast img {
+    width: 5%;
+}
+
+.imgTxtLast {
+    width: 100%;
+    display: flex;
+    flex-direction: row;    
+}
+
+.imgTxtLast img {
+    width: 31%;
+    height: 150px;
+    border: 3px solid rgb(253, 252, 252);
+    box-shadow: 1px 1px 15px 1px rgb(206, 204, 204);
+    /* animation */
+    animation:infinite 1s alternate animation;
+}
+
+@keyframes animation{
+    0% {
+        transform: translateX(0);
+        
+    }
+    100% {
+        transform: translateX(10%);
+    }
+}
+
+.txt {
+    width: 100%;
+    padding-left: 5%;
+}
+
+.title {
+    font-size: 140%;
+    color: #656a6d;
+}
+
+.paragraphFrom {
+    font-size: 117%;
+    color: #8d9397;
+    line-height: 150%;
+    padding-top: 1%;
+}
+
+.fecha {
+    padding-top: 2%;
+    color: #adb1b4;
+}
+
+.rightLast {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.apptasticoBox  {
+    font-size: 132%;
+    color: #8d9397;
+    line-height: 150%;
+    padding-top: 1%;
+}
+
+.fechaTwit {
+    padding-top: 2%;
+    color: #adb1b4;
+    font-size: 80%;
+}
+
+/* ----------- Footer ----------  */
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    margin-top: 2%;
+}
+
+.footerLeft {
+    padding-left: 7%;
+    font-size: 130%;
+}
+
+.footerRight {
+    padding-left: 62%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footerRight img{
+    width: 23%;
+    height: 60%;
+    padding-left: 9%;
+}
+
